@@ -1,0 +1,23 @@
+{
+  "name": "contributor-tweets-test",
+  "version": "1.0.0",
+  "description": "K8s Contributor Tweet testing repo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gkarthiks/contributor-tweets-test.git"
+  },
+  "author": "Karthikeyan Govindaraj <github.gkarthiks@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gkarthiks/contributor-tweets-test/issues"
+  },
+  "homepage": "https://github.com/gkarthiks/contributor-tweets-test#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.5",
+    "@actions/github": "^4.0.0"
+  }
+}

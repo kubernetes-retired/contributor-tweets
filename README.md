@@ -22,10 +22,12 @@ Thanks to the team behind **twitter-together** for putting together a wonderful 
 
 ## Posting a new tweet
 
-1. Fork this repository
-2. Create a new `.tweet` file with the tweet contents. Make sure the file is as per the [guidelines](GUIDELINES.md)
-3. Create a PR to this repository
-4. Once the PR is approved and merged, the tweet is sent out from the [K8sContributors account](https://twitter.com/k8scontributors)
+1. Create a [new issue](https://github.com/kubernetes-sigs/contributor-tweets/issues/new/choose) in this reopository.
+2. Follow the issue template and fill in the prompts.
+3. Click submit.
+4. If you have exceeded the maximum length, you will be thrown with an error comment. Please fix and comment `/validate` on the issue to restart the automation process.
+5. If everything is fine, you will be given a pull request link in the issue.
+6. Once the PR is approved and merged, the tweet is sent out from the [K8sContributors account](https://twitter.com/k8scontributors)
 
 
 ## Notes

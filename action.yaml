@@ -1,0 +1,32 @@
+name: 'Contributor Tweet Test'
+description: 'Parses the isssue and creates a PR'
+inputs:
+  starting-parse-symbol:
+    description: 'The parsing symbol that specifies the start of the parsing characters.'
+    required: true
+    default: '<!--::-->'
+  path-to-save:
+    description: 'The path of the files that needs to be saved.'
+    required: true
+    default: "./tweets"
+  file-name-format:
+    description: 'The file name format that needs to be stored as'
+    required: true
+    default: "dd-mm-yyyy-hh-MM"
+  file-name-extension:
+    description: "The extension that needs to be used for the tweet file."
+    required: true
+    default: "tweet"
+  token:
+    description: Github token for octokit to comment back in the issue.
+    required: true
+  tweet-length:
+    description: Tweet length.
+    required: false
+    default: '280'
+outputs:
+  continue-workflow:
+    description: Binary value determines whether the flow should continue or skip.
+runs:
+  using: 'node12'
+  main: 'index.js'
