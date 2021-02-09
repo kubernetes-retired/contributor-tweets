@@ -8,7 +8,7 @@ assignees: ''
 ---
 
 **Provide the actual tweet content below**
-<!-- Input your tweet content exactly below the commented colons -->
+<!-- Input your tweet content exactly between the commented colons -->
 <!--::-->
 
 <!--::-->
