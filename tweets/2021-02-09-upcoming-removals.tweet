@@ -1,1 +1,1 @@
-In version 1.22, CustomResourceDefinition, MutatingWebhookConfiguration, and ValidatingWebhookConfiguration will only be available the v1 APIs, rather than the v1beta1 API. https://groups.google.com/g/kubernetes-dev/c/z_AE1EHhZF4/m/fwHC6KSjAwAJ
+In version 1.22, several v1beta1 version API objects will be removed in favor of their v1 API versions. CustomResourceDefinition, MutatingWebhookConfiguration, and ValidatingWebhookConfiguration will only be available the v1 APIs, rather than the v1beta1 API. https://groups.google.com/g/kubernetes-dev/c/z_AE1EHhZF4/m/fwHC6KSjAwAJ
