@@ -22,7 +22,7 @@ Thanks to the team behind **twitter-together** for putting together a wonderful 
 
 ## Posting a new tweet
 
-1. Create a [new issue](https://github.com/kubernetes-sigs/contributor-tweets/issues/new/choose) in this reopository.
+1. Create a [new issue](https://github.com/kubernetes-sigs/contributor-tweets/issues/new/choose) in this repository.
 2. Follow the issue template and fill in the prompts.
 3. Click submit.
 4. If you have exceeded the maximum length, you will be thrown with an error comment. Please fix and comment `/validate` on the issue to restart the automation process.
