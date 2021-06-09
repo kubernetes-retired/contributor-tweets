@@ -1,0 +1,1 @@
+Oops! The most recent 1.18, 1.19, 1.20, and and 1.21 Kubernetes patch releases have a bug and you should probably skip them if you are still using dockershim. There will be new patches next week with a fix, including one more for 1.18! Read more: https://groups.google.com/g/kubernetes-dev/c/KuF8s2zueFs/m/GWGAACgKAgAJ
