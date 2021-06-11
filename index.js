@@ -48,6 +48,7 @@ try {
     core.info("Current run happened for the following trigger: "+eventName)
 
     if (eventName.startsWith("issue")) {
+        core.info("Executing actions for Issues")
 
         // Extract the label identifier in issues that needs a tweet ci run
         var tweetLabelId = core.getInput("tweet-label-id").trim();
@@ -177,6 +178,8 @@ try {
 
     } else if (eventName.startsWith("pull_request")) {
         core.info("TBD: Pull Request job")
+    } else {
+        core.info("Wasted action")
     }
 } catch (error) {
     core.setFailed(error.message);
