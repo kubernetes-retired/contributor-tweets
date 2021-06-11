@@ -48,15 +48,18 @@ try {
     core.info("Current run happened for the following trigger: "+eventName)
 
     if (eventName.startsWith("issue")) {
-        core.info("Executing actions for Issues")
+        core.info("Executing actions for: "+eventName)
 
         // Extract the label identifier in issues that needs a tweet ci run
         var tweetLabelId = core.getInput("tweet-label-id").trim();
         var issueLabel = "\""+tweetLabelId+"\""
 
+        core.info("Actions will perform only if the issue has "+issueLabel+" label to it.")
+
         // Validate and continue if the issue is opened for a tweet
         var strLabels = JSON.stringify(github.context.payload.issue.labels)
-        if (strLabels.includes(issueLabel)) {    
+        core.info("Labels found in the issue are : "+strLabels)
+        if (strLabels.includes(issueLabel)) {
             // Extract and create the necessary variables and values
             // sort of initialiazition part
             var startingParseSymbol = core.getInput("starting-parse-symbol").trim();

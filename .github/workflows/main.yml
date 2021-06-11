@@ -38,6 +38,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: Add new tweet file via automation
           title: 'add: new tweet file via automation'
+          tweet-label-id: 'tweet'
           body: |
             This PR is auto-generated.
             Fixes: #${{ steps.parseissue.outputs.issueNumber}}
