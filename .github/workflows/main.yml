@@ -45,7 +45,7 @@ jobs:
             /cc @${{ github.actor }}
           labels: add, automated pr
           branch: add/${{ steps.parseissue.outputs.issueNumber}}
-          base: main
+          base: master
           signoff: true
           delete-branch: true
 
