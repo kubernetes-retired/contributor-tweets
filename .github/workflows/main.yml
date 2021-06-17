@@ -9,7 +9,7 @@ on:
       - "*"
   pull_request:
     branches:
-      - main
+      - master
 
 jobs:
   parse-issue-and-create-pr:
@@ -38,13 +38,14 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: Add new tweet file via automation
           title: 'add: new tweet file via automation'
+          tweet-label-id: 'tweet'
           body: |
             This PR is auto-generated.
             Fixes: #${{ steps.parseissue.outputs.issueNumber}}
             /cc @${{ github.actor }}
           labels: add, automated pr
           branch: add/${{ steps.parseissue.outputs.issueNumber}}
-          base: main
+          base: master
           signoff: true
           delete-branch: true
 
