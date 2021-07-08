@@ -2,7 +2,7 @@
 name: New tweet request
 about: Create a new tweet request
 title: "[Please change the title]"
-labels: tweet
+labels: kind/tweet
 assignees: ''
 
 ---
