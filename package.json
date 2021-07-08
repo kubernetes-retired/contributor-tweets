@@ -1,0 +1,23 @@
+{
+  "name": "contributor-tweets-test",
+  "version": "1.0.0",
+  "description": "K8s Contributor Tweet Automation repo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kubernetes-sigs/contributor-tweets.git"
+  },
+  "author": "Karthikeyan Govindaraj <github.gkarthiks@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kubernetes-sigs/contributor-tweets/issues"
+  },
+  "homepage": "https://github.com/kubernetes-sigs/contributor-tweets#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.5",
+    "@actions/github": "^4.0.0"
+  }
+}
