@@ -4,7 +4,7 @@ inputs:
   tweet-label-id:
     description: 'Label to be used in the issue to consider for a tweet.'
     required: true
-    default: 'tweet'
+    default: 'kind/tweet'
   starting-parse-symbol:
     description: 'The parsing symbol that specifies the start of the parsing characters.'
     required: true
