@@ -1,0 +1,28 @@
+name: New tweet request
+description: Request a new tweet
+title: "[Tweet] <title>"
+labels: [kind/tweet]
+body:
+- type: markdown
+  attributes:
+    value: |
+      You can use this form to request a new Twitter message as [K8SContributors](https://twitter.com/k8scontributors)
+- type: checkboxes
+  attributes:
+    label: Guidance read
+    description: |
+      Read https://github.com/kubernetes-sigs/contributor-tweets#posting-a-new-tweet for guidance.
+    options:
+    - label: I have read the guidance
+      required: true
+- type: textarea
+  attributes:
+    label: Message
+    description: |
+      Provide the actual tweet content between the commented colons.
+    value: |
+             <!--::-->
+
+             <!--::-->
+  validations:
+    required: true
