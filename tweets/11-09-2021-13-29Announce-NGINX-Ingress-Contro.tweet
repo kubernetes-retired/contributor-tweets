@@ -1,0 +1,1 @@
+The NGINX Ingress Controller is now generally available - https://twitter.com/rpkatz/status/1430229296136794116 - and requires the v1 Ingress API. See https://kubernetes.github.io/ingress-nginx/ for more details. Authors: make sure YOUR code is ready for v1 Ingress.
