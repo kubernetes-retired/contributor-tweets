@@ -4,7 +4,7 @@ Welcome to Contributor Tweets!
 
 This repository is part of the automation, to tweet from the [K8sContributors](https://twitter.com/k8scontributors) twitter account. If you are looking at posting a tweet from the K8sContributors account, please follow the [instructions](#posting-a-new-tweet) below.
 
-This project is currently owned and maintained by the [SIG Contribex Marketing Team](https://github.com/kubernetes/community/tree/master/communication/marketing-team).
+This project is currently owned and maintained by the [SIG Contribex Marketing Team](https://github.com/kubernetes/community/tree/main/communication/marketing-team).
 
 ## Automation
 
@@ -29,7 +29,6 @@ Thanks to the team behind **twitter-together** for putting together a wonderful 
 5. If everything is fine, you will be given a pull request link in the issue.
 6. Once the PR is approved and merged, the tweet is sent out from the [K8sContributors account](https://twitter.com/k8scontributors)
 
-
 ## Notes
 
 - Only newly created files are handled, deletions, updates or renames are ignored.
@@ -40,9 +39,9 @@ Thanks to the team behind **twitter-together** for putting together a wonderful 
 
 We are always looking for people to help us improve the automation. Look at our [contributing guide](CONTRIBUTING.md) to get started.
 
-Please feel free to join our [weekly meetings](https://github.com/kubernetes/community/tree/master/sig-contributor-experience#community-management) or reach out to the maintainers of this project.
+Please feel free to join our [weekly meetings](https://github.com/kubernetes/community/tree/main/sig-contributor-experience#community-management) or reach out to the maintainers of this project.
 
-For adding features to the Github actions, we encourage to make upstream contributions to the [twitter-together](https://github.com/gr2m/twitter-together) project and then use the new feature downstream here. 
+For adding features to the Github actions, we encourage to make upstream contributions to the [twitter-together](https://github.com/gr2m/twitter-together) project and then use the new feature downstream here.
 
 ## Code of conduct
 
