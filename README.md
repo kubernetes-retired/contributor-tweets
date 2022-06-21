@@ -4,7 +4,7 @@ Welcome to Contributor Tweets!
 
 This repository is part of the automation, to tweet from the [K8sContributors](https://twitter.com/k8scontributors) twitter account. If you are looking at posting a tweet from the K8sContributors account, please follow the [instructions](#posting-a-new-tweet) below.
 
-This project is currently owned and maintained by the [SIG Contribex Marketing Team](https://github.com/kubernetes/community/tree/master/communication/marketing-team).
+This project is currently owned and maintained by the [SIG Contribex Marketing Team](https://github.com/kubernetes/community/tree/master/communication/contributor-comms).
 
 ## Automation
 
