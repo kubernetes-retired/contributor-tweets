@@ -1,0 +1,1 @@
+Kubernetes maturity is not in code alone: in 2021 we have adopted Elekto https://elekto.dev/ for a secure, transparent, gitops-based election process. Check the full report at https://github.com/kubernetes/steering/blob/main/reports/summary-2021.md
