@@ -1,0 +1,1 @@
+Security improvements in Kubernetes touched many different areas, including end-user security documentation, how pod credentials are handled, and how certificates are managed. Read the details in the 2021 Annual Report https://www.cncf.io/reports/kubernetes-annual-report-2021/
