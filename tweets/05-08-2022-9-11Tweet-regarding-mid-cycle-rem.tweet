@@ -1,0 +1,1 @@
+The removals and deprecation blog for k8s v1.25 release cycle is out, with major removals like PodSecurityPolicy lined up for this cycle do check the blog post for more details. https://kubernetes.io/blog/2022/08/04/upcoming-changes-in-kubernetes-1-25/
