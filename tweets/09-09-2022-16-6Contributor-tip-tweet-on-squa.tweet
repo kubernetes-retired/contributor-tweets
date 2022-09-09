@@ -1,0 +1,1 @@
+Contributor Tip☸️Squashing commits might be a bit confusing if there is a merge commit in your PRsRebase starting with the SHA of the first commit git you need; pick the 1 commit, and squash all the other commits (you'll see more commits expanded from the merge commit)
