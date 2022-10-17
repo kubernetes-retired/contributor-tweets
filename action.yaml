@@ -32,5 +32,5 @@ outputs:
   continue-workflow:
     description: Binary value determines whether the flow should continue or skip.
 runs:
-  using: 'node12'
+  using: 'node16'
   main: 'index.js'
