@@ -1,10 +1,17 @@
 # See the OWNERS docs at https://go.k8s.io/owners
 
+reviewers:
+  - chris-short
+  - kaslin
+  - kimmcmahon
 approvers:
-  - chris-short
-  - gkarthiks
-  - kaslin
-  - mbbroberg
-  - parispittman
-  - Pensu
-  - rajula96reddy
+  - chris-short
+  - imnmo
+  - kaslin
+  - kimmcmahon
+emeritus_approvers:
+  - mbbroberg
+  - parispittman
+  - Pensu
+  - rajula96reddy
+  - gkarthiks
