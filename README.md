@@ -8,7 +8,7 @@ This project is currently owned and maintained by the [SIG Contribex Contributor
 
 ## Automation
 
-The automation is based on [twitter-together](https://github.com/gr2m/twitter-together) project.
+The automation is based on [twitter-together](https://github.com/twitter-together/action) project.
 
 > twitter-together is a GitHub Action that utilizes text files to publish tweets from a GitHub repository. Rather than tweeting directly, GitHub’s pull request review process encourages more collaboration, Twitter activity and editorial contributions by enabling everyone to submit tweet drafts to a project
 
