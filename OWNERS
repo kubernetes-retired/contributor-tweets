@@ -5,10 +5,11 @@ reviewers:
   - kaslin
 approvers:
   - chris-short
-  - imnmo
-  - Atharva-Shinde 
   - kaslin
+  - SD-13
 emeritus_approvers:
+  - Atharva-Shinde
+  - imnmo
   - mbbroberg
   - parispittman
   - Pensu
